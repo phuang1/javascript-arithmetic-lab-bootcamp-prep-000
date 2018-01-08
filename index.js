@@ -27,11 +27,6 @@ function makeInt(n) {
     return (parseInt('n',10))
     elseif (parseInt('n',10) isNaN)
     return ("NaN")
-
-    
-  return ("I can\'t hear you!")
-  
-  return parseInt('n',10)
 }
 
 function preserveDecimal(n) {
