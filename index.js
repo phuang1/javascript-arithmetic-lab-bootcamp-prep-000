@@ -23,11 +23,18 @@ function dec(n){
 }
 
 function makeInt(n) {
-    if (parseInt('n',10)===Number){
+    var parseN = parseInt('n',10) 
+    if (isNaN(parseN)) {
+      return ("NaN")}
+    else return   
+    }
+    
+    (parseInt('n',10)===Number){
     return (parseInt('n',10))} 
     elseif (parseInt('n',10) === isNaN){
     return ("NaN")}
     
+      var parsed = parseInt(x, base);
      if (isNaN(parsed)) { return 0 }
   return parsed * 100;
 }
