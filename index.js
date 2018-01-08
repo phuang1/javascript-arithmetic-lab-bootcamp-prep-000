@@ -28,16 +28,6 @@ function makeInt(n) {
       return ("NaN")}
     else return parseN   
     }
-    
-    (parseInt('n',10)===Number){
-    return (parseInt('n',10))} 
-    elseif (parseInt('n',10) === isNaN){
-    return ("NaN")}
-    
-      var parsed = parseInt(x, base);
-     if (isNaN(parsed)) { return 0 }
-  return parsed * 100;
-}
 
 function preserveDecimal(n) {
   return parseFloat('n')
