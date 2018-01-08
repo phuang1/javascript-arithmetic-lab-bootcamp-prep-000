@@ -26,7 +26,7 @@ function makeInt(n) {
     var parseN = parseInt('n',10) 
     if (isNaN(parseN)) {
       return ("NaN")}
-    else return   
+    else return parseN   
     }
     
     (parseInt('n',10)===Number){
